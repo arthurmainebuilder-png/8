@@ -54,7 +54,7 @@ a {
 }
 
 .logo span {
-  color: var(--accent);
+  color: var(--accent-dark);
 }
 
 .nav-links {
@@ -109,7 +109,7 @@ a {
   margin: 0 0 10px;
   text-transform: uppercase;
   letter-spacing: 0.12em;
-  color: var(--accent);
+  color: var(--accent-dark);
   font-weight: 800;
   font-size: 0.82rem;
 }
@@ -424,8 +424,8 @@ a[href^="mailto"] {
 }
 
 .btn.secondary {
-  border-color: #2d6cdf;
-  color: #2d6cdf;
+  border-color: #121417;
+  color: #121417;
 }
 
 .nav-cta {
@@ -433,7 +433,7 @@ a[href^="mailto"] {
 }
 
 .portal-link {
-  border-color: #2d6cdf;
+  border-color: #121417;
   color: #2d6cdf !important;
 }
 
@@ -510,4 +510,28 @@ body {
 .contact-info {
   background:
     linear-gradient(145deg, #ffffff 0%, #eef4fb 100%);
+}
+
+
+.eyebrow {
+  color: #121417 !important;
+}
+
+.btn.secondary {
+  color: #121417 !important;
+  border-color: #121417 !important;
+}
+
+.portal-link {
+  color: #121417 !important;
+  border-color: #121417 !important;
+}
+
+.nav-links a:hover {
+  color: #121417;
+}
+
+a[href^="tel"],
+a[href^="mailto"] {
+  color: #121417 !important;
 }
