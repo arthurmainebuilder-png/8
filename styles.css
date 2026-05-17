@@ -535,3 +535,45 @@ a[href^="tel"],
 a[href^="mailto"] {
   color: #121417 !important;
 }
+
+
+body,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+label,
+span,
+div,
+a,
+.logo,
+.nav-links a,
+.portal-link,
+.eyebrow,
+.contact-info,
+.contact-box,
+.card,
+.hero-text,
+.footer,
+a[href^="tel"],
+a[href^="mailto"] {
+  color: #121417 !important;
+}
+
+.btn.primary,
+.btn.primary *,
+.nav-cta {
+  color: white !important;
+}
+
+.btn.secondary {
+  color: #121417 !important;
+  border-color: #121417 !important;
+}
+
+.gallery-item {
+  color: white !important;
+}
