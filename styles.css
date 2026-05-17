@@ -455,3 +455,59 @@ a[href^="mailto"] {
   background: #121417;
   color: #f7f6f3;
 }
+
+
+body {
+  background:
+    linear-gradient(180deg, #eef4fb 0%, #f5f7fa 35%, #edf2f8 100%);
+}
+
+.hero {
+  position: relative;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: -60px;
+  right: -80px;
+  width: 320px;
+  height: 320px;
+  background: radial-gradient(circle, rgba(45,108,223,0.18) 0%, rgba(45,108,223,0) 70%);
+  pointer-events: none;
+}
+
+.alt {
+  background:
+    linear-gradient(135deg, #dfe8f5 0%, #edf3fb 100%);
+}
+
+.portal-banner {
+  background:
+    linear-gradient(135deg, #ffffff 0%, #f0f5fc 100%);
+}
+
+.hero-card {
+  background:
+    linear-gradient(145deg, #ffffff 0%, #eef4fb 100%);
+}
+
+.trust-bar div {
+  background:
+    linear-gradient(145deg, #ffffff 0%, #f3f7fc 100%);
+}
+
+.card {
+  background:
+    linear-gradient(145deg, #ffffff 0%, #f7faff 100%);
+}
+
+.contact-box {
+  background:
+    linear-gradient(145deg, #ffffff 0%, #f3f7fc 100%);
+}
+
+.contact-info {
+  background:
+    linear-gradient(145deg, #ffffff 0%, #eef4fb 100%);
+}
