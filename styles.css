@@ -1,11 +1,11 @@
 :root {
-  --bg: #f7f5f2;
-  --text: #222222;
-  --muted: #6a6a6a;
+  --bg: #f7f6f3;
+  --text: #1f1f1f;
+  --muted: #5f6368;
   --card: #ffffff;
-  --accent: #8a6a4a;
-  --accent-dark: #2b2b2b;
-  --border: #e6e0d8;
+  --accent: #c46b2d;
+  --accent-dark: #1e2a36;
+  --border: #ddd8d0;
 }
 
 * {
@@ -189,7 +189,7 @@ h2 {
 }
 
 .trust-bar div {
-  background: #efebe5;
+  background: linear-gradient(180deg, #eef2f5 0%, #e7ecef 100%);
   padding: 14px;
   border-radius: 16px;
   text-align: center;
@@ -244,7 +244,7 @@ h2 {
 }
 
 .alt {
-  background: #efebe5;
+  background: linear-gradient(180deg, #eef2f5 0%, #e7ecef 100%);
   max-width: none;
 }
 
@@ -398,4 +398,60 @@ a[href^="mailto"] {
 .contact-info,
 .portal-banner {
   border-radius: 20px;
+}
+
+
+.hero {
+  padding-top: 100px;
+}
+
+.hero-content h1 {
+  max-width: 900px;
+}
+
+.hero-card {
+  background: linear-gradient(145deg, #ffffff 0%, #f4f6f8 100%);
+}
+
+.gallery-item {
+  background: linear-gradient(135deg, #c46b2d, #1e2a36) !important;
+}
+
+.btn.primary {
+  background: linear-gradient(135deg, #c46b2d, #a9531e);
+  border: none;
+  color: white;
+}
+
+.btn.secondary {
+  border-color: #c46b2d;
+  color: #c46b2d;
+}
+
+.nav-cta {
+  background: linear-gradient(135deg, #c46b2d, #a9531e);
+}
+
+.portal-link {
+  border-color: #c46b2d;
+  color: #c46b2d !important;
+}
+
+.trust-bar div {
+  background: #ffffff;
+  border: 1px solid #ddd8d0;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.04);
+}
+
+.card:hover,
+.hero-card:hover,
+.contact-box:hover,
+.contact-info:hover {
+  transform: translateY(-2px);
+  transition: 0.2s ease;
+}
+
+.footer {
+  background: #1e2a36;
+  color: #f7f6f3;
 }
