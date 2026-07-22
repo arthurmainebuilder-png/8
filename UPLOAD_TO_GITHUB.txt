@@ -1,0 +1,9 @@
+ARTHUR MAINE BUILDER — GITHUB UPLOAD
+
+1. Open this extracted folder.
+2. On the GitHub repository page, choose Add file > Upload files.
+3. Drag ALL items from inside this folder onto GitHub.
+4. Scroll down and click Commit changes.
+5. Vercel will automatically deploy the update.
+
+Important: upload the contents of this folder, not the ZIP file itself.
