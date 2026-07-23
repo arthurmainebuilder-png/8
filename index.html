@@ -397,6 +397,59 @@ textarea{border:1px solid #777;padding:12px}
 }
 </style>
 
+
+<style id="compact-desktop-gallery">
+/* Keep the phone layout, but make desktop images shorter and show two projects per row */
+@media(min-width:901px){
+  .hero{
+    min-height:68vh!important;
+  }
+
+  .project-grid{
+    grid-template-columns:repeat(2, minmax(0, 1fr))!important;
+    gap:18px!important;
+  }
+
+  .project,
+  .project-large,
+  .project-wide{
+    min-height:380px!important;
+    grid-column:auto!important;
+    grid-row:auto!important;
+  }
+
+  .project img{
+    height:380px!important;
+    object-fit:cover!important;
+  }
+
+  .project-caption{
+    padding:42px 24px 20px!important;
+  }
+
+  .project-caption h3{
+    font-size:30px!important;
+  }
+
+  .about-image img{
+    height:460px!important;
+    object-fit:cover!important;
+  }
+}
+
+@media(min-width:1300px){
+  .project,
+  .project-large,
+  .project-wide{
+    min-height:420px!important;
+  }
+
+  .project img{
+    height:420px!important;
+  }
+}
+</style>
+
 </head>
 <body>
   <header class="site-header">
