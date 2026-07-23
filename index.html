@@ -297,6 +297,106 @@ textarea{border:1px solid #777;padding:12px}
 }
 </style>
 
+
+<style id="phone-layout-all-screens">
+.site-header{
+  min-height:88px!important;
+  padding:8px 14px!important;
+  display:grid!important;
+  grid-template-columns:48px 1fr 48px!important;
+  grid-template-areas:"menu brand spacer"!important;
+  align-items:center!important;
+}
+.brand{
+  grid-area:brand!important;
+  justify-self:center!important;
+}
+.brand img{
+  width:225px!important;
+  height:64px!important;
+  object-fit:contain!important;
+}
+.menu-toggle{
+  display:block!important;
+  grid-area:menu!important;
+  justify-self:start!important;
+}
+.site-nav{
+  display:none!important;
+  position:absolute!important;
+  top:88px!important;
+  left:0!important;
+  right:0!important;
+  background:#fff!important;
+  padding:24px 22px 28px!important;
+  flex-direction:column!important;
+  align-items:center!important;
+  gap:18px!important;
+  border-bottom:1px solid #111!important;
+}
+.menu-checkbox:checked ~ .site-nav{
+  display:flex!important;
+}
+.hero{
+  margin-top:88px!important;
+  min-height:84vh!important;
+}
+.section{
+  padding:78px 22px!important;
+}
+.intro-grid,
+.about,
+.contact-grid{
+  grid-template-columns:1fr!important;
+}
+.project-grid{
+  grid-template-columns:1fr!important;
+}
+.project-large,
+.project-wide{
+  grid-column:auto!important;
+  grid-row:auto!important;
+  min-height:520px!important;
+}
+.process-grid{
+  grid-template-columns:1fr!important;
+}
+.service-item{
+  grid-template-columns:1fr!important;
+}
+.service-item p{
+  grid-column:auto!important;
+}
+.about-image img{
+  height:520px!important;
+}
+.contact-grid{
+  gap:42px!important;
+  max-width:none!important;
+}
+.contact-form{
+  grid-template-columns:1fr!important;
+}
+.contact-form label:nth-child(5),
+.contact-form button,
+.form-note{
+  grid-column:auto!important;
+}
+.site-footer{
+  grid-template-columns:1fr!important;
+  text-align:center!important;
+}
+.site-footer>div{
+  align-items:center!important;
+}
+.hero h1{
+  font-size:52px!important;
+}
+.section h2{
+  font-size:48px!important;
+}
+</style>
+
 </head>
 <body>
   <header class="site-header">
