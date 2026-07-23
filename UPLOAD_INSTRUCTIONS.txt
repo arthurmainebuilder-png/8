@@ -1,0 +1,18 @@
+THIS VERSION HAS NO ASSETS FOLDER.
+
+All photos, logo, styling and menu code are built directly into index.html.
+
+Upload all five files:
+index.html
+client-login.html
+robots.txt
+sitemap.xml
+UPLOAD_INSTRUCTIONS.txt
+
+GitHub steps:
+1. Open arthurmainebuilder-png/8
+2. Add file > Upload files
+3. Select all five files
+4. Commit changes
+5. Wait 1–2 minutes for Vercel
+6. Open arthurmainebuilder.com and press Ctrl+F5
